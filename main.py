@@ -104,3 +104,4 @@ async def on_message(message):
             embed.set_thumbnail(url='https://ssl.nx.com/s2/game/maplestory/renewal/common/logo.png')
             await message.channel.send("", embed=embed)
 client.run('token')
+# client.run(os.environ['token'])
